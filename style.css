@@ -96,7 +96,7 @@ a:hover {
   font-family: "Inconsolata", monospace;
   align-items: flex-end;
   transform: tanslateY(-15px);
-  background-color: #f184ea96;
+  background-color: #b34eadeb;
 }
 .intro {
   font-size: 30px;
@@ -216,10 +216,6 @@ footer {
   background-size: cover;
   width: 100%;
   height: 60vh;
-}
-.astro {
-  margin-top: 10%;
-  margin-left: 40%;
 }
 .creative {
   /* background-color: white; */
