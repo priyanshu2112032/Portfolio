@@ -14,10 +14,14 @@ function currentTime() {
         session = "PM";
         greeting="Good Afternoon!!";
      }
-     else if(hh>16 && hh<=24){
+     else if(hh>16 && hh<=19){
       session="PM";
       greeting="Good Evening!!"
   
+     }
+     else if(hh>19 && hh<=24 ){
+        session="PM";
+        greeting="Good Night!!";
      }
   
      hh = (hh < 10) ? "0" + hh : hh;
