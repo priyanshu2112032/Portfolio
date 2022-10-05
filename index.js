@@ -39,4 +39,4 @@ function currentTime() {
   
   }
   
-  setInterval(currentTime,1000);
+  setInterval(currentTime,1000); //to call the fucntion every second to renew the clock 
