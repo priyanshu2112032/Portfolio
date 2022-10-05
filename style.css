@@ -12,6 +12,10 @@ body {
 html {
   scroll-behavior: smooth;
 }
+.time {
+  margin-top: 200px;
+  margin-right: 100px;
+}
 .fixnav {
   position: fixed;
   width: 100%;
@@ -208,8 +212,8 @@ footer {
 }
 .creative {
   /* background-color: white; */
-  background-image:url("background.jpg");
-  background-size:cover;
+  background-image: url("background.jpg");
+  background-size: cover;
 }
 
 @media screen and (max-width: 620px) {
@@ -223,5 +227,9 @@ footer {
     display: flex;
     justify-content: center;
     padding-left: 20px;
+  }
+  .time {
+    margin-top: 200px;
+    margin-right: 0px;
   }
 }
