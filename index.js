@@ -4,8 +4,8 @@ function currentTime() {
     let mm = date.getMinutes();
     let ss = date.getSeconds();
     
-    const weekday = ["Sunday" , "Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday" , "Saturday"]
-    const Monthoftheyear=["January","Febraury","March","April","May","June","July","August","September","October","November","December"]
+    const days = ["Sunday" , "Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday" , "Saturday"]
+    const Months=["January","Febraury","March","April","May","June","July","August","September","October","November","December"]
     
     let session = "AM";
     let greeting="Good Morning!!";
@@ -30,7 +30,7 @@ function currentTime() {
       
      let time = hh + ":" + mm + ":" + ss + " " + session;
   
-     let pdate =  Monthoftheyear[date.getMonth()]  + " " + date.getDate() + " " + date.getFullYear() + " , " + weekday[date.getDay()] ; 
+     let pdate =  Months[date.getMonth()]  + " " + date.getDate() + " " + date.getFullYear() + "  " + days[date.getDay()] ; 
   
     document.getElementById("clock").innerText = time; 
     document.getElementById("greet").innerText = greeting; 
