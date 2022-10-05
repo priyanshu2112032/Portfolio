@@ -41,6 +41,7 @@ html {
   color: black;
   font-size: 26px;
   font-family: "Inconsolata", monospace;
+  padding-right: 70px;
 }
 .line {
   margin-bottom: 24px;
@@ -48,6 +49,8 @@ html {
   color: black;
   font-size: 18px;
   font-family: "Inconsolata", monospace;
+  padding-right: 95px;
+  word-wrap: break-word;
 }
 .container1 {
   background-color: #937dc2;
@@ -98,7 +101,7 @@ a:hover {
   color: rgb(112, 14, 3);
 }
 .intromain-image {
-  padding-top: 60px;
+  padding-top: 140px;
 }
 .container2 {
   background-color: #ffa1cf;
