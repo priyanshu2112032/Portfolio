@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Noto+Sans+JP:wght@700&family=Noto+Sans:ital,wght@1,300&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Noto+Sans+JP:wght@700&family=Noto+Sans:ital,wght@0,500;1,300;1,600&family=Roboto+Mono&display=swap');
 * {
   box-sizing: border-box;
 
@@ -17,7 +17,7 @@ html {
   /* position: fixed; */
   width: 100%;
   z-index: 3;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
 }
 .time {
   /* margin-top: 200px;
@@ -31,40 +31,53 @@ html {
   width: 100%;
   z-index: 3;
 }
+#contentnav {
+  display: flex;
+  /* padding-right: 20px; */
+}
+#navimage {
+  padding-top: 10px;
+  padding-left: 5px;
+}
 .navbar {
   background-color: purple;
   font-family: "Inconsolata", monospace;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-content: center;
-  height: 30px;
+  height: 60px;
   width: 100%;
   color: white;
 }
 .navcontent {
-  width: 100px;
+  width: 80px;
   display: flex;
-  padding-top: 5px;
+  padding-top: 20px;
   justify-content: center;
   align-content: center;
   color: orchid;
+  /* flex-wrap: nowrap; */
+  font-size: 18px;
+  font-weight: bold;
 }
 .line3 {
   margin-bottom: 10px;
   line-height: 50px;
-  color: black;
+  color: white;
   font-size: 26px;
   font-family: "Inconsolata", monospace;
   padding-right: 70px;
+  font-weight: bold;
 }
 .line {
   margin-bottom: 24px;
-  line-height: 50px;
-  color: black;
+  line-height: 28px;
+  color: white;
   font-size: 18px;
   font-family: "Inconsolata", monospace;
   padding-right: 95px;
   word-wrap: break-word;
+  font-weight: bolder;
 }
 .container1 {
   background-color: #937dc2;
@@ -116,7 +129,7 @@ a:hover {
   color: rgb(112, 14, 3);
 }
 .intromain-image {
-  padding-top: 140px;
+  padding-top: 70px;
 }
 .container2 {
   background-color: #ffa1cf;
@@ -127,14 +140,17 @@ a:hover {
 }
 .container2img {
   width: 125px;
+
 }
 .aboutme {
-  color: #c689c6;
-  font-size: 30px;
+  color: purple;
+  font-size: 45px;
   transform: translateY(-10px);
   font-family: "Noto Sans", sans-serif;
   letter-spacing: 1px;
   letter-spacing: 1px;
+  font-style: italic;
+  font-weight: 600;
 }
 .aboutmecont {
   color: black;
@@ -153,7 +169,6 @@ a:hover {
   transform: scale(1.02);
 }
 .container3 {
-  margin-top: 58px;
   background-color: #ffd6ec;
   width: 100%;
   height: 600px;
@@ -166,7 +181,7 @@ a:hover {
   width: 200px;
   padding-left: 25px;
   margin-right: 20px;
-  box-shadow: 3px 3px 8px 0px rgb(39, 9, 139);
+  /* box-shadow: 3px 3px 8px 0px rgb(39, 9, 139); */
   width: 170px;
 }
 .container4 {

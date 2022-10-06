@@ -33,7 +33,7 @@ function currentTime() {
      let pdate =  Months[date.getMonth()]  + " " + date.getDate() + " " + date.getFullYear() + "  " + days[date.getDay()] ; 
   
     document.getElementById("clock").innerText = time; 
-    document.getElementById("greet").innerText = greeting; 
+    // document.getElementById("greet").innerText = greeting; 
     document.getElementById("date").innerText = pdate;
   
   
